@@ -1,8 +1,7 @@
 services:
   app:
-    build: .
     image: mphlips-site
-    container_name: mphlips-site
+    build: .
     ports:
       - "80:80"
       - "443:443"
